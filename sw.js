@@ -1,5 +1,5 @@
 /* Service Worker — অ্যাপ ফাইল ফোনে রেখে দেয়, নেট ছাড়াই চালু হয় */
-const CACHE = 'trawler-v5';
+const CACHE = 'trawler-v6';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
